@@ -127,11 +127,13 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.build-venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+dist-installer/
 
 # Spyder project settings
 .spyderproject
@@ -166,3 +168,5 @@ cython_debug/
 src/.DS_Store
 .DS_Store
 .cursorrules
+
+packages/markitdown-desktop/.diagnostic-output/
